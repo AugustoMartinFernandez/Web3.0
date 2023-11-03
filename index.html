@@ -1,360 +1,318 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Martin Fernandez Desing</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5
-                class="offcanvas-title"
-                id="offcanvasNavbarLabel"
-                style="font-size: 2rem; color: #fff"
-              >
-                Martin Design
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#h1"
-                    >Inicio</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#h1"
-                    >Sobre Nosotros</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="#Portafolio"
-                    >Mi Portafolio</a
-                  >
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#Portafolio"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Mas
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#Nuestros Clientes"
-                        >Nuestros Clientes</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#Nuestros Servicios"
-                        >Nuestros Servicios</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <section class="textos-header">
-        <h1 id="h1">Potencia tus ventas al menos un 200%</h1>
-        <h2>con una pagina web potente</h2>
-      </section>
-      <div class="Wave" style="height: 150px; overflow: hidden">
-        <svg
-          viewBox="0 0 500 150"
-          preserveAspectRatio="none"
-          style="height: 100%; width: 100%"
-        >
-          <path
-            d="M-0.00,49.85 C139.05,265.04 349.20,-49.85 567.94,51.46 L512.64,203.03 L-14.44,189.26 Z"
-            style="stroke: none; fill: #fff"
-          ></path>
-        </svg>
-      </div>
-    </header>
-    <main>
-      <section class="contenedor sobre-nosostros">
-        <h2 class="titulo">Quienes Somos?</h2>
-        <div class="contenedor-sobre-nosostros">
-          <div class="text-center">
-            <img
-              src="./images/undraw_Pic_profile_re_7g2h.png"
-              alt=""
-              class="img-fluid imagen-about-us"
-            />
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Martin Fernandez Desing</title>
+</head>
 
-          <div class="contenido-textos">
-            <h3><span>1</span>Nuestra Experiencia</h3>
-            <p>
-              <b>"Nuestro Camino en el Mundo del Desarrollo Web"</b> <br />
-              Nuestra experiencia en el mundo del desarrollo web ha sido un
-              viaje apasionante y lleno de desafíos. A lo largo de los años,
-              hemos tenido el honor de participar en proyectos diversos y
-              emocionantes, lo que nos ha permitido perfeccionar nuestras
-              habilidades y conocimientos. <br />
-              <strong>"Desarrollo de Proyectos Significativos"</strong> <br />
-              Durante nuestra carrera, hemos tenido la oportunidad de trabajar
-              en una amplia variedad de proyectos, desde sitios web corporativos
-              hasta aplicaciones interactivas y tiendas en línea. Cada uno de
-              estos proyectos ha sido una oportunidad para aprender, crecer y
-              perfeccionar nuestras habilidades. <br />
-              <b>"Innovación Constante"</b> <br />
-              Creemos firmemente en mantenernos actualizados con las últimas
-              tendencias y tecnologías en el mundo del desarrollo web. Esto nos
-              ha permitido ofrecer soluciones creativas y vanguardistas a
-              nuestros clientes, mejorando la calidad y la eficacia de cada
-              proyecto en el que participamos. <br />
-              <b>"Enfoque en el Cliente"</b> <br />
-              Nuestra experiencia no solo se trata de la tecnología, sino
-              también de la satisfacción del cliente. Siempre hemos mantenido un
-              enfoque centrado en el cliente, trabajando en estrecha
-              colaboración con ellos para comprender sus necesidades y ofrecer
-              soluciones que superen sus expectativas.
-            </p>
-            <h3><span>2</span>Nuestros Servicios/Productos</h3>
-            <p>
-              <b>"Mi Portafolio"</b> <br />
-              Es una ventana a los servicios que ofrece. Desde el diseño web
-              elegante hasta el desarrollo de aplicaciones personalizadas, pongo
-              a tu disposición un amplio conjunto de habilidades para ayudarte a
-              lograr tus objetivos en línea. <br />
-              <b>"Como Profesional"</b> <br />
-              En desarrollo web, mi enfoque está en brindar soluciones que
-              combinan creatividad y funcionalidad. Ofrezco servicios que
-              incluyen el desarrollo frontend y backend, diseño responsivo,
-              optimización de velocidad y rendimiento, y consultoría SEO para
-              impulsar la visibilidad en línea de tu proyecto.
-            </p>
+<body>
+  <header>
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-size: 2rem; color: #fff">
+              <a class="nav-link active" aria-current="page" href="#h1"> Martin Desing</a>
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-        </div>
-      </section>
-
-      <section class="portafolio">
-        <div class="contenedor">
-          <h2 class="titulo" id="Portafolio">Portafolio</h2>
-          <div class="galeria-port">
-            <div class="imagen-port">
-              <a href="https://augustomartinfernandez.github.io/Portafolio-Web/" target="_blank" ><img src="./images/augustomartinfernandez_github.jpg" class="img-fluid" alt="..." /></a>
-              <div class="hover-galeria">
-                <img src="./images/miedit.png" alt="" />
-                <p>Portafolio Web|Click Aqui</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img src="./images/portafolio.png" class="img-fluid" alt="..." />
-              <div class="hover-galeria">
-                <a href="https://augustomartinfernandez.github.io/Web-Presupuestos/"><img src="./images/presupuesto.jpg" alt="" /></a>
-                <p>Presuestos</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="clientes contenedor">
-        <h2 class="titulo" id="Nuestros Clientes">Testimonios de Clientes</h2>
-        <div class="cards">
-          <div class="card">
-            <div class="imagen-persona">
-              <img src="./images/entrevista.png" alt="Nombre del Cliente 1" />
-            </div>
-            <div class="contenido-texto-card">
-              <h4 class="h4-">Bruno | CoderHouse</h4>
-              <p class="p-">
-                "Martin ha sido un verdadero hallazgo para mi proyecto en línea.
-                Con su experiencia en desarrollo web, me ayudó a crear una
-                página web profesional que realmente representa mi visión
-                creativa. No solo entregó un diseño elegante y funcional, sino
-                que también hizo que todo el proceso fuera fácil de entender
-                para alguien como yo. Martin es un profesional confiable y
-                dedicado, y estoy muy contento de haber trabajado con él.
-                ¡Recomiendo encarecidamente sus servicios para cualquiera que
-                busque dar vida a su presencia en línea!"
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="imagen-persona">
-              <img
-                src="./images/anadiralacesta.png"
-                alt="Nombre del Cliente 2"
-              />
-            </div>
-            <div class="contenido-texto-card">
-              <h4 class="h4-">Isabella | Empresa Contable</h4>
-              <p class="p-">
-                "Contraté a Martin para desarrollar una página web informativa
-                para mi empresa, y el resultado fue excepcional. Martin combinó
-                su experiencia en diseño y desarrollo web para crear una
-                plataforma que realmente reflejaba la identidad de mi negocio.
-                No solo entregó el proyecto a tiempo, sino que también se
-                aseguró de que fuera altamente funcional y visualmente
-                atractivo. Estoy encantada con el trabajo que hizo y
-                recomendaría a Martin a cualquiera que busque un desarrollador
-                web profesional y comprometido."
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="about-services">
-        <div class="contenedor">
-          <h2 class="titulo" id="Nuestros Servicios">Nuestros Servicios</h2>
-          <div class="servicio-cont">
-            <div class="servicio-ind">
-              <img src="./images/servicios.png" alt="" />
-              <h3>Mejoras de Web</h3>
-              <p>
-                "Como desarrollador web, ofrezco servicios de mejora para sitios
-                web ya existentes. Mi enfoque se centra en optimizar el diseño y
-                la funcionalidad de los sitios web para garantizar una mejor
-                experiencia de usuario y resultados más efectivos. Ya sea que
-                necesites correcciones técnicas, una actualización en el diseño
-                o mejoras en el rendimiento, estoy aquí para ayudarte a sacar el
-                máximo provecho de tu sitio web.Mi objetivo es hacer que tu
-                sitio web existente sea más atractivo, funcional y fácil de
-                usar, lo que a su vez puede aumentar la retención de visitantes
-                y la conversión de clientes."
-              </p>
-            </div>
-            <div class="servicio-ind">
-              <img src="./images/pagosmoviles.png" alt="" />
-              <h3>Sitios Web Estáticos</h3>
-              <p>
-                Como desarrollador web con experiencia, mi enfoque se centra en
-                crear sitios web estáticos que se destacan por su simplicidad y
-                elegancia. Los sitios web estáticos son una excelente opción
-                para proyectos que no requieren actualizaciones frecuentes y
-                desean ofrecer una experiencia de usuario rápida y directa.
-                <br />
-                Si estás buscando un sitio web que sea eficiente, elegante y
-                fácil de mantener, un sitio web estático es una excelente
-                opción. Contáctame para discutir cómo puedo crear un sitio web
-                estático que cumpla con tus necesidades y objetivos específicos.
-                ¡Estoy aquí para hacer que tu presencia en línea sea un
-                verdadero éxito!
-              </p>
-            </div>
-            <div class="servicio-ind">
-              <img src="./images/Paginasweb.png" alt="" />
-              <h3>Landing Pages</h3>
-              <p>
-                Las "Landing Pages" (páginas de aterrizaje) son una herramienta
-                esencial en el mundo del marketing digital. Estas páginas están
-                diseñadas de manera estratégica para captar la atención de los
-                visitantes y convertirlos en clientes potenciales. Como
-                desarrollador web, me especializo en crear Landing Pages
-                altamente efectivas. <br />
-                Herramienta esencial en el mundo del marketing digital. Estas
-                páginas están diseñadas de manera estratégica para captar la
-                atención de los visitantes y convertirlos en clientes
-                potenciales
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="div-footer">
-        <div class="contenedor-footer">
-          <div class="content-foo">
-            <h4>Contacto☎️</h4>
-            <p>Teléfono: 3815949432</p>
-            <p>Email: martinnfernandezz.20@gmail.com</p>
-            <p>Dirección: Trancas, Tucuman</p>
-          </div>
-          <div class="content-foo">
-            <h4>Redes Sociales💻</h4>
-            <ul class="redes-sociales">
-              <li>
-                <a href="https://facebook.com/tupagina" target="_blank"
-                  ><img src="./images/icons8-github-48.png" alt="" style="width: 40px; height: 40px;" ></a
-                >
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#h1">Inicio</a>
               </li>
-              <li>
-                <a href="https://twitter.com/tupagina" target="_blank"
-                  ><img src="./images/linkedin.png" alt="" style="width: 40px; height: 40px;"></a
-                >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#h1">Sobre Nosotros</a>
               </li>
-              <li>
-                <a href="https://instagram.com/tupagina" target="_blank"
-                  ><img src="./images/instagram.png" alt="" style="width: 40px; height: 40px;"></a
-                >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Portafolio">Mi Portafolio</a>
               </li>
-              <!-- Agrega más redes sociales si es necesario -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#Portafolio" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Mas
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#Nuestros Clientes">Nuestros Clientes</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#Nuestros Servicios">Nuestros Servicios</a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
-          <div class="content-foo">
-            <h4></h4>
-            >
-              Bienvenido a nuestra página web. Somos una empresa dedicada a
-              brindar soluciones web de calidad. Explore nuestros servicios y
-              contáctenos para obtener más información.🚀
-          </p>
-          </div>
-        </div>
-        <div>
-          <h2 class="titulo-final">
-            &copy; Empresa Desarrollo Web | Martin Fernandez
-          </h2>
         </div>
       </div>
-    </footer>
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"
-  ></script>
+    </nav>
+    <section class="textos-header">
+      <h1 id="h1">Potencia tus ventas al menos un 200%</h1>
+      <h2>con una pagina web potente</h2>
+    </section>
+    <div class="Wave" style="height: 150px; overflow: hidden">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+        <path d="M-0.00,49.85 C139.05,265.04 349.20,-49.85 567.94,51.46 L512.64,203.03 L-14.44,189.26 Z"
+          style="stroke: none; fill: #fff"></path>
+      </svg>
+    </div>
+  </header>
+  <main>
+
+    <div class="floating-button animate__animated animate__tada">
+      <a href="https://augustomartinfernandez.github.io/Portafolio-Web" target="_blank">
+        <img src="./images/fotosobremi-PhotoRoom.png-PhotoRoom.png" alt="Descripción del botón" style=" height: 70px;"/>
+      </a>
+    </div>
+    
+    <div class="whatsapp-float animate__animated animate__rubberBand">
+      <a href="https://wa.me/3815949243" target="_blank">
+        <img src="./images/icons8-whatsapp-48.png" alt="WhatsApp" style="width: 50px; "/>
+      </a>
+    </div>
+    
+    <section class="contenedor sobre-nosostros">
+      <h2 class="titulo">Quienes Somos?</h2>
+      <div class="contenedor-sobre-nosostros">
+        <div class="text-center">
+          <img src="./images/undraw_Pic_profile_re_7g2h.png" alt="" class="img-fluid imagen-about-us" />
+        </div>
+
+        <div class="contenido-textos">
+          <h3><span>1</span>Nuestra Experiencia</h3>
+          <p>
+            <b>"Nuestro Camino en el Mundo del Desarrollo Web"</b> <br />
+            Nuestra experiencia en el mundo del desarrollo web ha sido un
+            viaje apasionante y lleno de desafíos. A lo largo de los años,
+            hemos tenido el honor de participar en proyectos diversos y
+            emocionantes, lo que nos ha permitido perfeccionar nuestras
+            habilidades y conocimientos. <br />
+            <strong>"Desarrollo de Proyectos Significativos"</strong> <br />
+            Durante nuestra carrera, hemos tenido la oportunidad de trabajar
+            en una amplia variedad de proyectos, desde sitios web corporativos
+            hasta aplicaciones interactivas y tiendas en línea. Cada uno de
+            estos proyectos ha sido una oportunidad para aprender, crecer y
+            perfeccionar nuestras habilidades. <br />
+            <b>"Innovación Constante"</b> <br />
+            Creemos firmemente en mantenernos actualizados con las últimas
+            tendencias y tecnologías en el mundo del desarrollo web. Esto nos
+            ha permitido ofrecer soluciones creativas y vanguardistas a
+            nuestros clientes, mejorando la calidad y la eficacia de cada
+            proyecto en el que participamos. <br />
+            <b>"Enfoque en el Cliente"</b> <br />
+            Nuestra experiencia no solo se trata de la tecnología, sino
+            también de la satisfacción del cliente. Siempre hemos mantenido un
+            enfoque centrado en el cliente, trabajando en estrecha
+            colaboración con ellos para comprender sus necesidades y ofrecer
+            soluciones que superen sus expectativas.
+          </p>
+          <h3><span>2</span>Nuestros Servicios/Productos</h3>
+          <p>
+            <b>"Mi Portafolio"</b> <br />
+            Es una ventana a los servicios que ofrece. Desde el diseño web
+            elegante hasta el desarrollo de aplicaciones personalizadas, pongo
+            a tu disposición un amplio conjunto de habilidades para ayudarte a
+            lograr tus objetivos en línea. <br />
+            <b>"Como Profesional"</b> <br />
+            En desarrollo web, mi enfoque está en brindar soluciones que
+            combinan creatividad y funcionalidad. Ofrezco servicios que
+            incluyen el desarrollo frontend y backend, diseño responsivo,
+            optimización de velocidad y rendimiento, y consultoría SEO para
+            impulsar la visibilidad en línea de tu proyecto.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portafolio">
+      <div class="contenedor">
+        <h2 class="titulo" id="Portafolio">Portafolio</h2>
+        <div class="galeria-port">
+          <div class="imagen-port">
+            <a href="https://augustomartinfernandez.github.io/Portafolio-Web/" target="_blank"><img
+                src="./images/augustomartinfernandez_github.jpg" class="img-fluid" alt="..." /></a>
+            <div class="hover-galeria">
+              <img src="./images/miedit.png" alt="" />
+              <p>Portafolio Web|Click Aqui</p>
+            </div>
+          </div>
+          <div class="imagen-port">
+            <img src="./images/presupuesto.jpg" class="img-fluid" alt="..." />
+            <div class="hover-galeria">
+              <a href="https://augustomartinfernandez.github.io/Web-Presupuestos/">
+                <img src="./images/presupuesto.jpg" alt="" /></a>
+              <p>Presuestos|Click Aqui</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clientes contenedor">
+      <h2 class="titulo" id="Nuestros Clientes">Testimonios de Clientes</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="imagen-persona">
+            <img src="./images/entrevista.png" alt="Nombre del Cliente 1" />
+          </div>
+          <div class="contenido-texto-card">
+            <h4 class="h4-">Bruno | CoderHouse</h4>
+            <p class="p-">
+              "Martin ha sido un verdadero hallazgo para mi proyecto en línea.
+              Con su experiencia en desarrollo web, me ayudó a crear una
+              página web profesional que realmente representa mi visión
+              creativa. No solo entregó un diseño elegante y funcional, sino
+              que también hizo que todo el proceso fuera fácil de entender
+              para alguien como yo. Martin es un profesional confiable y
+              dedicado, y estoy muy contento de haber trabajado con él.
+              ¡Recomiendo encarecidamente sus servicios para cualquiera que
+              busque dar vida a su presencia en línea!"
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imagen-persona">
+            <img src="./images/anadiralacesta.png" alt="Nombre del Cliente 2" />
+          </div>
+          <div class="contenido-texto-card">
+            <h4 class="h4-">Isabella | Empresa Contable</h4>
+            <p class="p-">
+              "Contraté a Martin para desarrollar una página web informativa
+              para mi empresa, y el resultado fue excepcional. Martin combinó
+              su experiencia en diseño y desarrollo web para crear una
+              plataforma que realmente reflejaba la identidad de mi negocio.
+              No solo entregó el proyecto a tiempo, sino que también se
+              aseguró de que fuera altamente funcional y visualmente
+              atractivo. Estoy encantada con el trabajo que hizo y
+              recomendaría a Martin a cualquiera que busque un desarrollador
+              web profesional y comprometido."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-services">
+      <div class="contenedor">
+        <h2 class="titulo" id="Nuestros Servicios">Nuestros Servicios</h2>
+        <div class="servicio-cont">
+          <div class="servicio-ind">
+            <img src="./images/servicios.png" alt="" />
+            <h3>Mejoras de Web</h3>
+            <p>
+              "Como desarrollador web, ofrezco servicios de mejora para sitios
+              web ya existentes. Mi enfoque se centra en optimizar el diseño y
+              la funcionalidad de los sitios web para garantizar una mejor
+              experiencia de usuario y resultados más efectivos. Ya sea que
+              necesites correcciones técnicas, una actualización en el diseño
+              o mejoras en el rendimiento, estoy aquí para ayudarte a sacar el
+              máximo provecho de tu sitio web.Mi objetivo es hacer que tu
+              sitio web existente sea más atractivo, funcional y fácil de
+              usar, lo que a su vez puede aumentar la retención de visitantes
+              y la conversión de clientes."
+            </p>
+          </div>
+          <div class="servicio-ind">
+            <img src="./images/pagosmoviles.png" alt="" />
+            <h3>Sitios Web Estáticos</h3>
+            <p>
+              Como desarrollador web con experiencia, mi enfoque se centra en
+              crear sitios web estáticos que se destacan por su simplicidad y
+              elegancia. Los sitios web estáticos son una excelente opción
+              para proyectos que no requieren actualizaciones frecuentes y
+              desean ofrecer una experiencia de usuario rápida y directa.
+              <br />
+              Si estás buscando un sitio web que sea eficiente, elegante y
+              fácil de mantener, un sitio web estático es una excelente
+              opción. Contáctame para discutir cómo puedo crear un sitio web
+              estático que cumpla con tus necesidades y objetivos específicos.
+              ¡Estoy aquí para hacer que tu presencia en línea sea un
+              verdadero éxito!
+            </p>
+          </div>
+          <div class="servicio-ind">
+            <img src="./images/Paginasweb.png" alt="" />
+            <h3>Landing Pages</h3>
+            <p>
+              Las "Landing Pages" (páginas de aterrizaje) son una herramienta
+              esencial en el mundo del marketing digital. Estas páginas están
+              diseñadas de manera estratégica para captar la atención de los
+              visitantes y convertirlos en clientes potenciales. Como
+              desarrollador web, me especializo en crear Landing Pages
+              altamente efectivas. <br />
+              Herramienta esencial en el mundo del marketing digital. Estas
+              páginas están diseñadas de manera estratégica para captar la
+              atención de los visitantes y convertirlos en clientes
+              potenciales
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="div-footer">
+      <div class="contenedor-footer">
+        <div class="content-foo">
+          <h4>Contacto☎️</h4>
+          <p>Teléfono: 3815949432</p>
+          <p>Email: martinnfernandezz.20@gmail.com</p>
+          <p>Dirección: Trancas, Tucuman</p>
+        </div>
+        <div class="content-foo">
+          <h4>Nuestras Redes</h4>
+          <ul class="redes-sociales">
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100058211406066&mibextid=ZbWKwL" target="_blank"><img
+                  src="./images/facebook.png" alt="" style="width: 40px; height: 40px;"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mart%C3%ADn-fern%C3%A1ndez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"><img src="./images/linkedin.png" alt="" style="width: 40px; height: 40px;"></a>
+            </li>
+            <li>
+              <a href="https://instagram.com/martinn_fernandeez" target="_blank"><img src="./images/instagram.png"
+                  alt="" style="width: 40px; height: 40px;"></a>
+            </li>
+            <!-- Agrega más redes sociales si es necesario -->
+          </ul>
+        </div>
+        <div class="content-foo">
+          <h4></h4>
+          >
+          Bienvenido a nuestra página web. Somos una empresa dedicada a
+          brindar soluciones web de calidad. Explore nuestros servicios y
+          contáctenos para obtener más información.🚀
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2 class="titulo-final">
+          &copy; Empresa Desarrollo Web | Martin Fernandez
+        </h2>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </html>
